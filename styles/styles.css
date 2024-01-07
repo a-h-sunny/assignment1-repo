@@ -215,7 +215,8 @@ span {
     font-weight: 500;
 
 }
-.offer-title{
+
+.offer-title {
     margin-top: 10px;
 }
 
@@ -238,9 +239,123 @@ span {
     height: 364.844px;
     flex-shrink: 0;
 }
-.right-offer{
+
+.right-offer {
     margin-left: 40px;
 }
-.offer-image{
+
+.offer-image {
     margin-top: 20px;
 }
+
+.sale {
+    margin-top: 120px;
+    padding-left: 20px;
+    width: 1320px;
+    height: 1000px;
+}
+
+.sale-title {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+}
+
+.sale-heading {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-align: center;
+}
+
+.sale-des {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: center;
+    padding: 0px 126px;
+    /* 160% */
+}
+
+.sale-image {
+    display: flex;
+}
+
+.sale-image-left {
+    background-image: url('../images/Rectangle\ 2.png');
+    width: 1320px;
+    height: 229px;
+    flex-shrink: 0;
+    background-position-x: center;
+    background-position-y: bottom;
+}
+
+.sale-image-right {
+    background-image: url('../images/Rectangle\ 1.png');
+    width: 429px;
+    height: 433px;
+    flex-shrink: 0;
+    margin-right: 40px;
+}
+
+.portfolio {
+    width: 1320px;
+    margin-left: 110px;
+}
+
+.portfolio-title {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.portfolio-header {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.portfolio-des {
+    width: 896px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    /* 160% */
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  .column {
+    flex: 32.33%;
+    max-width: 32.33%;
+    padding: 4px 6px;
+  }
+  .image{
+    opacity: 1;
+  }
+  .column:hover .image{
+    opacity:1;
+  }
